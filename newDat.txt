@@ -1,0 +1,25 @@
+3.2 Git Branching - Einfaches Branching und Merging
+Einfaches Branching und Merging
+
+Lassen Sie uns ein einfaches Beispiel für das Verzweigen und Zusammenführen (engl. branching and merging) anschauen, wie es Ihnen in einem praxisnahen Workflow begegnen könnte. Führen Sie diese Schritte aus:
+
+    Arbeiten Sie an einer Website
+
+    Erstellen Sie einen Branch für eine neue Anwendergeschichte, an der Sie gerade arbeiten
+
+    Erledigen Sie einige Arbeiten in diesem Branch
+
+In diesem Moment erhalten Sie einen Anruf, dass ein anderes Problem kritisch ist und Sie einen Hotfix benötigen. Dazu werden Sie folgendes machen:
+
+    Wechseln Sie zu Ihrer Produktions-Branch
+
+    Erstellen Sie einen Branch, um den Hotfix einzufügen
+
+    Nachdem der Test abgeschlossen ist, mergen Sie den Hotfix-Branch und schieben ihn in die Produktions-Branch
+
+    Wechseln Sie zurück zu Ihrer ursprünglichen Anwenderstory und arbeiten Sie daran weiter
+
+Einfaches Branching
+
+Lassen Sie uns zunächst annehmen, Sie arbeiten an Ihrem Projekt und haben bereits ein paar Commits in Ihre master-Branch gemacht.
+
